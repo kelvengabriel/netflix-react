@@ -1,5 +1,4 @@
 
-import { useState } from 'react'
 import './App.css'
 
 import netflixLogo from"./assets/img/netflixlogo.png"
@@ -7,10 +6,7 @@ import facebookLogo from"./assets/img/Facebook_logo.png"
 
 
 function App() {
-const [count,setCount]=useState(0)
-function add(){
-  setCount((state)=>state+=1)
-}
+
   return (
     <div>
        <div className="header">
